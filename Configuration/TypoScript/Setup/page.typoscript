@@ -1,0 +1,11 @@
+page = PAGE
+page {
+  typeNum = 0
+
+  10 =< lib.templates.base
+
+  shortcutIcon = EXT:templatepackage/Resources/Public/Icons/favicon.ico
+
+}
+
+@import 'EXT:templatepackage/Configuration/TypoScript/Setup/Page/*.typoscript'

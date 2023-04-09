@@ -1,0 +1,25 @@
+page {
+
+  headTag = <head itemscope itemtype="http://schema.org/WebSite">
+
+  headerData {
+
+    10 = TEXT
+    10.value = <meta charset="utf-8">
+
+    20 = TEXT
+    20.value = <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    30 = TEXT
+    30.value = <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    40 = TEXT
+    40 {
+      value (
+        <script>document.documentElement.classList.remove("no-js");</script>
+      )
+    }
+
+  }
+
+}

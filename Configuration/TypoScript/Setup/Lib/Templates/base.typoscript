@@ -1,0 +1,117 @@
+lib {
+  templates {
+
+    # Initiate template (used by page)
+    base = CASE
+    base {
+
+      key {
+        data = levelfield:-1, backend_layout_next_level, slide
+        override.data = page:backend_layout
+      }
+
+      10 = FLUIDTEMPLATE
+      10 {
+        layoutRootPaths {
+          10 = {$view.pages.partialRootPath}
+        }
+
+        partialRootPaths {
+          10 = {$view.pages.partialRootPath}
+        }
+
+        templateRootPaths {
+          10 = {$view.pages.templateRootPath}
+        }
+
+        templateName = TEXT
+        templateName {
+          cObject = TEXT
+          cObject {
+            data = pagelayout
+            required = 1
+            case = uppercamelcase
+            split {
+              token = pagets__
+              cObjNum = 1
+              1.current = 1
+            }
+          }
+          ifEmpty = Default
+        }
+
+        settings < plugin.tx_templatepackage.settings
+
+        variables {
+          # Column content (use eg. {columnMain -> f:format.raw()} for proper output in fluid template)
+          columnMain =< lib.templates.columns.main
+        }
+
+        dataProcessing {
+
+          1 = TYPO3\CMS\Frontend\DataProcessing\SiteProcessor
+          1 {
+            as = site
+          }
+
+          10 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+          10 {
+            special = directory
+            special {
+              value = {$uids.main}
+            }
+
+            as = menuMain
+            levels = 1
+            expandAll = 1
+            includeSpacer = 1
+            titleField = nav_title // title
+          }
+
+          11 < .10
+          11 {
+            special {
+              value = {$uids.meta}
+            }
+
+            as = menuMeta
+          }
+
+          # Breadcrumb Navigation
+          20 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+          20 {
+            special = rootline
+            special.range = 1|-1
+            includeNotInMenu = 1
+            as = breadcrumb
+          }
+
+          # Language Menu
+          30 = TYPO3\CMS\Frontend\DataProcessing\LanguageMenuProcessor
+          30 {
+            languages = auto
+            as = languagemenu
+          }
+
+          40 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+          40 {
+            table = pages
+            pidInList = this
+            references.fieldName = media
+            as = files
+          }
+        }
+      }
+
+      # Default fluid template
+      default =< lib.templates.base.10
+      default {
+        templateName = Default
+      }
+
+    }
+
+  }
+}
+
+@import 'EXT:templatepackage/Configuration/TypoScript/Setup/Lib/Templates/Base/*.typoscript'

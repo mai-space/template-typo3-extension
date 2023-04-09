@@ -1,0 +1,12 @@
+lib {
+  templates {
+    base {
+
+      pagets__Start < .default
+      pagets__Start {
+        templateName = Start
+      }
+
+    }
+  }
+}

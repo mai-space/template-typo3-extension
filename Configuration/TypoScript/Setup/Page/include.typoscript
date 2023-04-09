@@ -1,0 +1,27 @@
+page {
+
+  includeCSSLibs {
+
+  }
+
+  includeCSS {
+    templatepackage_layout = EXT:templatepackage/Resources/Public/Css/layout.min.css
+  }
+
+  includeJSLibs {
+
+  }
+
+  includeJS {
+
+  }
+
+  includeJSFooterlibs {
+
+  }
+
+  includeJSFooter {
+    templatepackage_scripts = EXT:templatepackage/Resources/Public/JavaScript/Dist/scripts.js
+  }
+
+}

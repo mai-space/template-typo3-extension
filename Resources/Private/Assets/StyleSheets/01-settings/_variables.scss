@@ -1,0 +1,120 @@
+// Settings: Variables
+
+// Transitions
+$enable-reduced-motion:			true;
+$enable-transitions:			true;
+$transition-base:               all .2s ease-in-out;
+
+// Z-Index
+$z-index-unset:					  unset;
+$z-index-default:				  1;
+$z-index-negative-default:	      -1;
+$z-index-background:			  5;
+$z-index-middleground:			  10;
+$z-index-foreground:			  15;
+
+$z-index-overlay:				  2000;
+$z-index-navbar:				  1500;
+$z-index-footer:				  1000;
+$z-index-loader:				  1000;
+$z-index-loader-background:	      750;
+
+$z-index-dropdown-background:	  50;
+$z-index-dropdown-middleground:	  55;
+$z-index-dropdown-foreground:	  60;
+
+// Grid
+$grid-breakpoints: (
+	xs: 0,
+	sm: 36rem,              // 576px
+	md: 48rem,              // 768px
+	lg: 62rem,              // 992px
+	xl: 75rem,              // 1200px
+    xxl: 87.5rem,           // 1400px
+	xxxl: 100rem            // 1600px
+) !default;
+
+$container-max-widths: (
+	sm: 36rem,              // 576px
+	md: 48rem,              // 768px
+	lg: 62rem,              // 992px
+	xl: 75rem,              // 1200px
+	xxl: 87.5rem            // 1400px
+) !default;
+
+// Grid
+$grid-margin-left-right--mobile: 3rem;
+$grid-margin-up-down--mobile: 1.2rem;
+
+// Spacings
+$spacer: 1rem;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+	$spacers,
+	(
+		0: 0,
+		1: ($spacer),           // 16px
+        2: ($spacer * 2),       // 32px
+		3: ($spacer * 3),       // 48px
+		4: ($spacer * 4),       // 64px
+		5: ($spacer * 6),       // 96px
+		6: ($spacer * 6.625),   // 106px
+		7: ($spacer * 10),      // 160px
+	)
+);
+
+// Fonts
+$font-family-sans-serif:    	'Open Sans', sans-serif;
+$font-family-base:				$font-family-sans-serif;
+$font-family-display:			$font-family-sans-serif;
+$font-family-monospace:         $font-family-sans-serif;
+
+$font-style-normal:				normal;
+
+$font-weight-thin:				100;
+$font-weight-light:				300;
+$font-weight-base:				400;
+$font-weight-normal:			$font-weight-base;
+$font-weight-medium:            500;
+$font-weight-demi:              600;
+$font-weight-bold:				700;
+$font-weight-black:				900;
+$font-weight-icon:              $font-weight-black;
+
+$font-size-base:            	1rem;
+$font-size-base-percent:        100%;
+
+$line-height-base:              1;
+
+// Color system
+$dark-olive-green:              #4D6D03;
+$citron:                        #8FA432;
+$apple-green:                   #98B70B;
+$orange-yellow:                 #F2B926;
+$carrot-orange:                 #DF973A;
+$brick-red:                     #BF4053;
+$red-violet-color-wheel:        #822B38;
+
+$black:                         #231311;
+$gray-400:                      #363636;
+$gray-300:                      #575757;
+$gray-200:                      #8C8C8C;
+$gray-100:                      #E3E3E3;
+$white:                         #F6F5EF;
+$linen:                         #EEE6DD;
+
+// Theme Colors
+$primary: #8f41a2;
+$secondary: #d88011;
+$tertiary:      				$red-violet-color-wheel;
+
+$success:       				$citron;
+$info:         					$orange-yellow;
+$warning:       				$carrot-orange;
+$danger:        				$brick-red;
+
+// Default Color Variables
+$body-bg:						$linen;
+$body-color:					$black;
+$link-color:					$primary;

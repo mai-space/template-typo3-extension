@@ -1,0 +1,51 @@
+page {
+
+  bodyTagCObject = COA
+  bodyTagCObject {
+
+    stdWrap {
+      trim = 1
+      wrap = <body class="|">
+    }
+
+    5 = TEXT
+    5 {
+      noTrimWrap = |body| |
+    }
+
+    # Add uid
+    10 = TEXT
+    10 {
+      data = page:uid
+      noTrimWrap = |page-| |
+    }
+
+    # Add level
+    20 = TEXT
+    20 {
+      data = level:0
+      noTrimWrap = |level-| |
+    }
+
+    # Add backend layout
+    30 = TEXT
+    30 {
+      data = levelfield:-1 , backend_layout_next_level, slide
+      override.data = page:backend_layout
+
+      stdWrap {
+        case = lower
+        replacement {
+          10 {
+            search = pagets__
+            replace =
+          }
+        }
+      }
+
+      noTrimWrap = |template-||
+    }
+
+  }
+
+}

@@ -1,0 +1,65 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav, footer {
+  background-color: #fffbd9;
+}
+
+.question {
+  .btn {
+    height: 100%;
+  }
+}
+
+// Form styles
+.form-control {
+  font-family: $font-family-sans-serif;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 2rem;
+
+  &:focus {
+    box-shadow: 0 0 0 2px $primary;
+  }
+}
+
+/* Custom CSS for Bootstrap slider */
+.carousel-caption {
+
+  h5 {
+    margin-bottom: 0;
+    font-size: 2.25rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-caption {
+    font-size: 18px;
+
+    h5 {
+      margin-bottom: 0;
+      font-size: 18px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}
+@media (min-width: 992px) {
+  .carousel-item img {
+    max-height: 600px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+#map {
+  max-width: 100%;
+
+  img {
+    max-width: 100%;
+  }
+}

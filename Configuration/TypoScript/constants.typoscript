@@ -1,0 +1,5 @@
+# -------------------------------------------------------------------------------------------- BEGIN:  Include constants
+
+@import 'EXT:templatepackage/Configuration/TypoScript/Constants/*.typoscript'
+
+# ----------------------------------------------------------------------------------------------- END: Include constants

@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"lib": [
+			"es5",
+			"dom",
+			"es2015"
+		],
+		"module": "es2020",
+		"target": "es5",
+		"noImplicitAny": false,
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"include": ["../Resources/Public/JavaScripts/*"],
+	"exclude": ["node_modules"],
+	"files": [
+		"../Resources/Public/JavaScripts/bundle.ts",
+		"../Resources/Public/JavaScripts/01-generic/service-worker.ts",
+	]
+}

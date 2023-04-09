@@ -1,0 +1,24 @@
+module {
+  tx_templatepackage {
+
+    settings < plugin.tx_templatepackage.settings
+
+    view {
+      layoutRootPaths {
+        5 = {$view.pages.partialRootPath}
+        10 = {$view.backend.layoutRootPath}
+      }
+
+      partialRootPaths {
+        5 = {$view.pages.partialRootPath}
+        10 = {$view.backend.partialRootPath}
+      }
+
+      templateRootPaths {
+        5 = {$view.pages.partialRootPath}
+        10 = {$view.backend.templateRootPath}
+      }
+    }
+
+  }
+}

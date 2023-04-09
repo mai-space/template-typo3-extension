@@ -1,0 +1,17 @@
+plugin.tx_templatepackage {
+
+    persistence.storagePid =
+
+    settings {
+
+      uids {
+
+        home =
+        legal =
+        privacy =
+
+      }
+
+    }
+
+}

@@ -1,0 +1,5 @@
+# ----------------------------------------------------------------------------------------- BEGIN: Include User TsConfig
+
+@import 'EXT:templatepackage/Configuration/TsConfig/User/*.typoscript'
+
+# ------------------------------------------------------------------------------------------- END: Include User TsConfig
