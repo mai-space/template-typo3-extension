@@ -7,10 +7,10 @@
 =========
 
 :Extension key:
-    <extension-key>
+    templatepackage
 
 :Package name:
-    <package-name>
+    Templatepackage
 
 :Version:
     |release|
@@ -19,7 +19,7 @@
     en
 
 :Author:
-    <author>
+    Joel Maximilian Mai
 
 :License:
     This document is published under the
