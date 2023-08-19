@@ -3,7 +3,7 @@
 .. _start:
 
 =========
-<project>
+Template TYPO3 Extension
 =========
 
 :Extension key:
