@@ -2,6 +2,8 @@ name: Build and Trigger Documentation Deployment
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'Documentation/**'
 
