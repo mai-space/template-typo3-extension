@@ -25,27 +25,27 @@
   "release": "12.0.x-dev",
   "scm_version_info": {
     "00info": "Showing what the Python module 'setuptools_scm' can tell us about the input repository and its version.",
-    "guessed_version": "0.1.dev1+g4798aab",
+    "guessed_version": "0.1.dev1+gae54f42",
     "is_shallow": true,
     "json": {
       "_extra": {},
-      "branch": "tests",
+      "branch": "main",
       "dirty": false,
       "distance": 1,
-      "node": "g4798aab",
+      "node": "gae54f42",
       "preformatted": false
     },
     "pprint": {
       "_extra": {},
-      "branch": "tests",
-      "config": "<setuptools_scm.config.Configuration object at 0x7f2b69565790>",
+      "branch": "main",
+      "config": "<setuptools_scm.config.Configuration object at 0x7f6400fd0790>",
       "dirty": false,
       "distance": 1,
-      "node": "g4798aab",
+      "node": "gae54f42",
       "node_date": "datetime.date(2023, 8, 19)",
       "preformatted": false,
       "tag": "<Version('0.0')>",
-      "time": "datetime.datetime(2023, 8, 19, 17, 33, 59, 464063, tzinfo=datetime.timezone.utc)"
+      "time": "datetime.datetime(2023, 8, 19, 17, 54, 16, 683649, tzinfo=datetime.timezone.utc)"
     },
     "project": "/PROJECT",
     "warnings": [
