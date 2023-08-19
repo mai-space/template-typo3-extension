@@ -1,0 +1,5 @@
+./Documentation/Index.rst:5: WARNING: Title overline too short.
+
+=========
+Template TYPO3 Extension
+=========

@@ -1,372 +1,372 @@
 {
    "php:class": {
       "Vendor\\MyExtension\\Interfaces\\AnotherImportantInterface": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Developer/Index.html#Vendor\\MyExtension\\Interfaces\\AnotherImportantInterface",
          "-"
       ],
       "Vendor\\MyExtension\\Interfaces\\ExampleInterface": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Developer/Index.html#Vendor\\MyExtension\\Interfaces\\ExampleInterface",
          "-"
       ],
       "Vendor\\MyExtension\\Interfaces\\RequireJsModuleInterface": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Developer/Index.html#Vendor\\MyExtension\\Interfaces\\RequireJsModuleInterface",
          "-"
       ]
    },
    "php:method": {
       "Vendor\\MyExtension\\Interfaces\\ExampleInterface::methodOne": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Developer/Index.html#Vendor\\MyExtension\\Interfaces\\ExampleInterface::methodOne",
          "-"
       ],
       "Vendor\\MyExtension\\Interfaces\\RequireJsModuleInterface::getRequireJsModules": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Developer/Index.html#Vendor\\MyExtension\\Interfaces\\RequireJsModuleInterface::getRequireJsModules",
          "-"
       ],
       "Vendor\\MyExtension\\Interfaces\\RequireJsModuleInterface::setDate": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Developer/Index.html#Vendor\\MyExtension\\Interfaces\\RequireJsModuleInterface::setDate",
          "-"
       ]
    },
    "php:namespace": {
       "Vendor\\MyExtension\\Interfaces": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Developer/Index.html#namespace-Vendor\\MyExtension\\Interfaces",
          "-"
       ]
    },
    "std:confval": {
       "enableSomething": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TSconfig.html#confval-enableSomething",
          "-"
       ],
       "enableThat": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TypoScriptReference/Setup.html#confval-enableThat",
          "-"
       ],
       "enableThis": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TypoScriptReference/Constants.html#confval-enableThis",
          "-"
       ],
       "limitSomething": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TSconfig.html#confval-limitSomething",
          "-"
       ],
       "someImportantPages": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TSconfig.html#confval-someImportantPages",
          "-"
       ],
       "storageId": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TypoScriptReference/Constants.html#confval-storageId",
          "-"
       ]
    },
    "std:doc": {
       "Configuration/General": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/General.html",
          "General configuration"
       ],
       "Configuration/Index": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/Index.html",
          "Configuration"
       ],
       "Configuration/TSconfig": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TSconfig.html",
          "TSconfig reference"
       ],
       "Configuration/TypoScriptReference/Constants": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TypoScriptReference/Constants.html",
          "Constants"
       ],
       "Configuration/TypoScriptReference/Index": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TypoScriptReference/Index.html",
          "TypoScript reference"
       ],
       "Configuration/TypoScriptReference/Setup": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TypoScriptReference/Setup.html",
          "Setup"
       ],
       "Developer/Index": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Developer/Index.html",
          "Developer corner"
       ],
       "Editor/Index": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Editor/Index.html",
          "For Editors"
       ],
       "Index": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Index.html",
-         "<project>"
+         "Template TYPO3 Extension"
       ],
       "Installation/Index": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Installation/Index.html",
          "Installation"
       ],
       "Introduction/Index": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Introduction/Index.html",
          "Introduction"
       ],
       "KnownProblems/Index": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "KnownProblems/Index.html",
          "Known problems"
       ],
       "Sitemap": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Sitemap.html",
          "-"
       ],
       "Templates/Examples": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Templates/Examples.html",
          "Templating examples"
       ],
       "Templates/Index": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Templates/Index.html",
          "Templates"
       ],
       "Templates/Override": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Templates/Override.html",
          "Overriding templates"
       ],
       "Templates/ViewHelpers": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Templates/ViewHelpers.html",
          "Custom ViewHelpers"
       ],
       "genindex": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "genindex.html",
          "Index"
       ]
    },
    "std:label": {
       "configuration": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/Index.html#configuration",
          "Configuration"
       ],
       "configuration-general": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/General.html#configuration-general",
          "General configuration"
       ],
       "configuration-tsconfig": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TSconfig.html#configuration-tsconfig",
          "TSconfig reference"
       ],
       "configuration-tsconfig_page": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TSconfig.html#configuration-tsconfig-page",
          "User TSconfig"
       ],
       "configuration-tsconfig_user": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TSconfig.html#configuration-tsconfig-user",
          "Page TSconfig"
       ],
       "configuration-typoscript": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TypoScriptReference/Index.html#configuration-typoscript",
          "TypoScript reference"
       ],
       "configuration-typoscript-constants": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TypoScriptReference/Constants.html#configuration-typoscript-constants",
          "Constants"
       ],
       "configuration-typoscript-setup": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/TypoScriptReference/Setup.html#configuration-typoscript-setup",
          "Setup"
       ],
       "configuration_example": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/General.html#configuration-example",
          "Typical example"
       ],
       "configuration_typical": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Configuration/General.html#configuration-typical",
          "Typical example"
       ],
       "developer": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Developer/Index.html#developer",
          "Developer corner"
       ],
       "developer-api": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Developer/Index.html#developer-api",
          "API"
       ],
       "editor-faq": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Editor/Index.html#editor-faq",
          "FAQ"
       ],
       "for-editors": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Editor/Index.html#for-editors",
          "For Editors"
       ],
       "installation": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Installation/Index.html#installation",
          "Installation"
       ],
       "introduction": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Introduction/Index.html#introduction",
          "Introduction"
       ],
       "known-problems": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "KnownProblems/Index.html#known-problems",
          "Known problems"
       ],
       "modindex": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "py-modindex.html",
          "Module Index"
       ],
       "php-modindex": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "php-modindex.html",
          "PHP Namespace Index"
       ],
       "php-objectsindex": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "php-objectsindex.html",
          "PHP Objects Index"
       ],
       "py-modindex": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "py-modindex.html",
          "Python Module Index"
       ],
       "screenshots": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Introduction/Index.html#screenshots",
          "Screenshots"
       ],
       "search": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "search.html",
          "Search Page"
       ],
       "start": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Index.html#start",
-         "<project>"
+         "Template TYPO3 Extension"
       ],
       "templates": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Templates/Index.html#templates",
          "Templates"
       ],
       "templates-examples": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Templates/Examples.html#templates-examples",
          "Templating examples"
       ],
       "templates-override": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Templates/Override.html#templates-override",
          "Overriding templates"
       ],
       "templates-viewhelpers": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Templates/ViewHelpers.html#templates-viewhelpers",
          "Custom ViewHelpers"
       ],
       "what-it-does": [
-         "<project>",
-         "<version>",
+         "Template TYPO3 Extension",
+         "12.0.x-dev",
          "Introduction/Index.html#what-it-does",
          "What does it do?"
       ]

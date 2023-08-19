@@ -1,7 +1,7 @@
 {
-  "checksum": "486149e3e655a9b488eb6612169d826c",
+  "checksum": "7827a4aa0fc7975688e4e50cb458906d",
   "checksum_ttl_seconds": 604800,
-  "copyright": "<copyright>",
+  "copyright": "Joel Maximilian Mai",
   "created": {
     "html": 1
   },
@@ -20,32 +20,32 @@
   "has_neutralized_links": 0,
   "localization": "default",
   "postprocessed_html_files": 0,
-  "project": "<project>",
+  "project": "Template TYPO3 Extension",
   "publish_dir": "project/0.0.0",
-  "release": "<release>",
+  "release": "12.0.x-dev",
   "scm_version_info": {
     "00info": "Showing what the Python module 'setuptools_scm' can tell us about the input repository and its version.",
-    "guessed_version": "0.1.dev1+g7ecb0f2",
+    "guessed_version": "0.1.dev1+gae54f42",
     "is_shallow": true,
     "json": {
       "_extra": {},
       "branch": "main",
       "dirty": false,
       "distance": 1,
-      "node": "g7ecb0f2",
+      "node": "gae54f42",
       "preformatted": false
     },
     "pprint": {
       "_extra": {},
       "branch": "main",
-      "config": "<setuptools_scm.config.Configuration object at 0x7f67f7285790>",
+      "config": "<setuptools_scm.config.Configuration object at 0x7f5ccfe23790>",
       "dirty": false,
       "distance": 1,
-      "node": "g7ecb0f2",
+      "node": "gae54f42",
       "node_date": "datetime.date(2023, 8, 19)",
       "preformatted": false,
       "tag": "<Version('0.0')>",
-      "time": "datetime.datetime(2023, 8, 19, 12, 54, 10, 131232, tzinfo=datetime.timezone.utc)"
+      "time": "datetime.datetime(2023, 8, 19, 13, 0, 23, 607207, tzinfo=datetime.timezone.utc)"
     },
     "project": "/PROJECT",
     "warnings": [
@@ -62,5 +62,5 @@
     "version_scm_core": "4.9.0",
     "version_scm_pre_release": ""
   },
-  "version": "<version>"
+  "version": "12.0.x-dev"
 }
