@@ -15,3 +15,9 @@
 .project
 .webprj
 nbproject
+
+.idea
+.vagrant
+vendor
+
+Documentation-GENERATED-temp

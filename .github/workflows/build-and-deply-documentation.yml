@@ -1,0 +1,25 @@
+name: Build and Deploy Documentation
+
+on:
+  push:
+    paths:
+      - 'Documentation/**'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build documentation using Docker Compose
+        run: |
+          cd .ddev  # Navigate to the directory containing your Docker Compose setup
+          docker-compose -f docker-compose.docs.yaml up docs
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: Documentation-GENERATED-temp/Result/project/0.0.0
