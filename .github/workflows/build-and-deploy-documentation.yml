@@ -1,0 +1,15 @@
+name: Build and Trigger Documentation Deployment
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Documentation/**'
+
+jobs:
+  build-and-deploy:
+    uses: mai-space/action-typo3-documentation-on-github/.github/workflows/build.yml@main
+    with:
+      publish_dir: Documentation-GENERATED-temp/Result/project/0.0.0
+    secrets: inherit

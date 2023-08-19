@@ -7,6 +7,9 @@
 Developer corner
 ================
 
+This extension uses a custom github workflow for deploying the documentation to
+Github Pages.
+
 Use this section to provide examples of code or detail any information that would be deemed relevant to a developer.
 
 For example explain how a certain feature was implemented.
