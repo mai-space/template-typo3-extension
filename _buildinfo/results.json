@@ -1,5 +1,5 @@
 {
-  "checksum": "65f0202ba9fb3407ca71a6f88c152774",
+  "checksum": "486149e3e655a9b488eb6612169d826c",
   "checksum_ttl_seconds": 604800,
   "copyright": "<copyright>",
   "created": {
@@ -25,27 +25,27 @@
   "release": "<release>",
   "scm_version_info": {
     "00info": "Showing what the Python module 'setuptools_scm' can tell us about the input repository and its version.",
-    "guessed_version": "0.1.dev1+g345c38e",
+    "guessed_version": "0.1.dev1+g7ecb0f2",
     "is_shallow": true,
     "json": {
       "_extra": {},
       "branch": "main",
       "dirty": false,
       "distance": 1,
-      "node": "g345c38e",
+      "node": "g7ecb0f2",
       "preformatted": false
     },
     "pprint": {
       "_extra": {},
       "branch": "main",
-      "config": "<setuptools_scm.config.Configuration object at 0x7fc5f6e72790>",
+      "config": "<setuptools_scm.config.Configuration object at 0x7f67f7285790>",
       "dirty": false,
       "distance": 1,
-      "node": "g345c38e",
+      "node": "g7ecb0f2",
       "node_date": "datetime.date(2023, 8, 19)",
       "preformatted": false,
       "tag": "<Version('0.0')>",
-      "time": "datetime.datetime(2023, 8, 19, 12, 46, 0, 344831, tzinfo=datetime.timezone.utc)"
+      "time": "datetime.datetime(2023, 8, 19, 12, 54, 10, 131232, tzinfo=datetime.timezone.utc)"
     },
     "project": "/PROJECT",
     "warnings": [
