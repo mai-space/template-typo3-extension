@@ -7,7 +7,7 @@ Template TYPO3 Extension
 =========
 
 :Extension key:
-    templatepackage
+    templatetypo3extension
 
 :Package name:
     TemplateTypo3Extension
