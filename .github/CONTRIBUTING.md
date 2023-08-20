@@ -1,4 +1,4 @@
-# Contributing to Maispace
+# Contributing to MaiSpace
 
 Thank you for your interest in contributing to our project! We welcome contributions from the community to make our project better.
 

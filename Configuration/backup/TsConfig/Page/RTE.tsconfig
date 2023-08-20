@@ -3,6 +3,6 @@
 #############
 RTE {
     default {
-        preset = templatepackage
+        preset = templatetypo3extension
     }
 }

@@ -5,7 +5,7 @@ defined('TYPO3') or die('Access denied.');
 // Add default RTE configuration
 // ------------------------------------------------------------------------------------------------------------------ //
 //
-$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['templatepackage'] = 'EXT:templatepackage/Configuration/RTE/Default.yaml';
+$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['templatetypo3extension'] = 'EXT:templatetypo3extension/Configuration/RTE/Default.yaml';
 
 // ------------------------------------------------------------------------------------------------------------------ //
 // Add rootline fields
@@ -42,4 +42,4 @@ $GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['templatepackage'] = 'EXT:template
 // Include TsConfig files
 // ------------------------------------------------------------------------------------------------------------------ //
 //
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:templatepackage/Configuration/TsConfig/Page/All.tsconfig">');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:templatetypo3extension/Configuration/TsConfig/Page/All.tsconfig">');

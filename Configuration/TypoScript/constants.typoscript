@@ -1,5 +1,5 @@
 # -------------------------------------------------------------------------------------------- BEGIN:  Include constants
 
-@import 'EXT:templatepackage/Configuration/TypoScript/Constants/*.typoscript'
+@import 'EXT:templatetypo3extension/Configuration/TypoScript/Constants/*.typoscript'
 
 # ----------------------------------------------------------------------------------------------- END: Include constants

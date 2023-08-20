@@ -1,4 +1,4 @@
-name: templatepackage
+name: templatetypo3extension
 type: php
 docroot: ~
 no_project_mount: true
@@ -9,9 +9,9 @@ router_http_port: "80"
 router_https_port: "443"
 xdebug_enabled: false
 additional_hostnames:
-    - docs.templatepackage
-    - v11.templatepackage
-    - v12.templatepackage
+    - docs.templatetypo3extension
+    - v11.templatetypo3extension
+    - v12.templatetypo3extension
 additional_fqdns: []
 provider: default
 use_dns_when_possible: true

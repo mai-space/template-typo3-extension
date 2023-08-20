@@ -2,9 +2,9 @@ version: "3.6"
 services:
     web:
         environment:
-            - EXTENSION_KEY=templatepackage
-            - PACKAGE_NAME=maispace/templatepackage
-            - TYPO3_INSTALL_SITE_NAME=EXT:templatepackage
+            - EXTENSION_KEY=templatetypo3extension
+            - PACKAGE_NAME=maispace/templatetypo3extension
+            - TYPO3_INSTALL_SITE_NAME=EXT:templatetypo3extension
 
             - TYPO3_INSTALL_DB_DRIVER=mysqli
             - TYPO3_INSTALL_DB_USER=root

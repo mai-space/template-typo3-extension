@@ -9,9 +9,9 @@
 ##############################
 styles {
     templates {
-        layoutRootPath = EXT:templatepackage/Resources/Private/Layouts/ContentElements/
-        partialRootPath = EXT:templatepackage/Resources/Private/Partials/ContentElements/
-        templateRootPath = EXT:templatepackage/Resources/Private/Templates/ContentElements/
+        layoutRootPath = EXT:templatetypo3extension/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:templatetypo3extension/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:templatetypo3extension/Resources/Private/Templates/ContentElements/
     }
 }
 
@@ -21,9 +21,9 @@ styles {
 ############
 page {
      fluidtemplate {
-        layoutRootPath = EXT:templatepackage/Resources/Private/Layouts/Page/
-        partialRootPath = EXT:templatepackage/Resources/Private/Partials/Page/
-        templateRootPath = EXT:templatepackage/Resources/Private/Templates/Page/
+        layoutRootPath = EXT:templatetypo3extension/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:templatetypo3extension/Resources/Private/Partials/Page/
+        templateRootPath = EXT:templatetypo3extension/Resources/Private/Templates/Page/
     }
     meta {
         description =

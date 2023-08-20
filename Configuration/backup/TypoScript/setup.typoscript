@@ -7,7 +7,7 @@
 ################
 #### HELPER ####
 ################
-@import 'EXT:templatepackage/Configuration/TypoScript/Helper/DynamicContent.typoscript'
+@import 'EXT:templatetypo3extension/Configuration/TypoScript/Helper/DynamicContent.typoscript'
 
 ##############
 #### PAGE ####
@@ -15,7 +15,7 @@
 page = PAGE
 page {
     typeNum = 0
-    shortcutIcon = EXT:templatepackage/Resources/Public/Icons/favicon.ico
+    shortcutIcon = EXT:templatetypo3extension/Resources/Public/Icons/favicon.ico
 
     10 = FLUIDTEMPLATE
     10 {
@@ -47,15 +47,15 @@ page {
             ifEmpty = Default
         }
         templateRootPaths {
-            0 = EXT:templatepackage/Resources/Private/Templates/Page/
+            0 = EXT:templatetypo3extension/Resources/Private/Templates/Page/
             1 = {$page.fluidtemplate.templateRootPath}
         }
         partialRootPaths {
-            0 = EXT:templatepackage/Resources/Private/Partials/Page/
+            0 = EXT:templatetypo3extension/Resources/Private/Partials/Page/
             1 = {$page.fluidtemplate.partialRootPath}
         }
         layoutRootPaths {
-            0 = EXT:templatepackage/Resources/Private/Layouts/Page/
+            0 = EXT:templatetypo3extension/Resources/Private/Layouts/Page/
             1 = {$page.fluidtemplate.layoutRootPath}
         }
         dataProcessing {
@@ -143,7 +143,7 @@ page {
     }
 
     includeCSS {
-        templatepackage_layout = EXT:templatepackage/Resources/Public/Css/layout.min.css
+        templatetypo3extension_layout = EXT:templatetypo3extension/Resources/Public/Css/layout.min.css
     }
 
     includeJSLibs {
@@ -159,7 +159,7 @@ page {
     }
 
     includeJSFooter {
-        templatepackage_scripts = EXT:templatepackage/Resources/Public/JavaScript/Dist/scripts.js
+        templatetypo3extension_scripts = EXT:templatetypo3extension/Resources/Public/JavaScript/Dist/scripts.js
     }
 }
 

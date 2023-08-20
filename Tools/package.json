@@ -1,9 +1,9 @@
 {
-  "name": "templatepackage",
+  "name": "templatetypo3extension",
   "description": "Client specific customizations",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Inf166/website-maispace"
+    "url": "https://github.com/mai-space/website-maispace"
   },
   "homepage": "https://www.maispace.de",
   "author": "Joel Maximilian Mai",

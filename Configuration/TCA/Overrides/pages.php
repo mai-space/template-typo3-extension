@@ -83,10 +83,10 @@ call_user_func(
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
             $extensionKey,
             'Configuration/TsConfig/Page/All.tsconfig',
-            'templatepackage'
+            'templatetypo3extension'
         );
 
     },
-    'templatepackage',
+    'templatetypo3extension',
     basename(__FILE__, '.php')
 );

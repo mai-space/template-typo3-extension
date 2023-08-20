@@ -1,4 +1,4 @@
-# Maispace Code of Conduct
+# MaiSpace Code of Conduct
 
 ## Introduction
 

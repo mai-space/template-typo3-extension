@@ -1,24 +1,22 @@
 <?php
 
 /**
- * Extension Manager/Repository config file for ext "templatepackage".
+ * Extension Manager/Repository config file for ext "templatetypo3extension".
  */
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'templatepackage',
+    'title' => 'templatetypo3extension',
     'description' => 'A TYPO3 Extension Template',
     'category' => 'templates',
     'constraints' => [
         'depends' => [
-            'typo3' => '11.5.0-11.5.99',
-            'fluid_styled_content' => '11.5.0-11.5.99',
-            'rte_ckeditor' => '11.5.0-11.5.99',
+            'typo3' => '12.4.0-12.4.99',
         ],
         'conflicts' => [
         ],
     ],
     'autoload' => [
         'psr-4' => [
-            'Maispace\\TemplateTypo3Extension\\' => 'Classes',
+            'MaiSpace\\TemplateTypo3Extension\\' => 'Classes',
         ],
     ],
     'state' => 'stable',
@@ -27,6 +25,6 @@ $EM_CONF[$_EXTKEY] = [
     'clearCacheOnLoad' => 1,
     'author' => 'Joel Maximilian Mai',
     'author_email' => 'joel@maispace.de',
-    'author_company' => 'Maispace',
+    'author_company' => 'MaiSpace',
     'version' => '1.0.0',
 ];
