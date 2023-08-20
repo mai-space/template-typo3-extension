@@ -8,7 +8,7 @@
     <meta name="docsearch:release" content="12.0.x-dev" />
     <meta name="docsearch:version" content="12.0.x-dev" />
 
-    <title>Developer corner &mdash; Template TYPO3 Extension 12.0.x-dev documentation</title>
+    <title>Documentation &mdash; Template TYPO3 Extension 12.0.x-dev documentation</title>
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css" />
@@ -108,7 +108,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../Templates/Examples.html">Templating examples</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Developer corner</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Documentation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../KnownProblems/Index.html">Known problems</a></li>
 </ul>
 <ul>
@@ -118,12 +118,13 @@
 
                                     <p class="caption"><span class="caption-text">PAGE CONTENTS</span></p>
                                     <ul>
-<li><a class="reference internal" href="#">Developer corner</a><ul>
-<li><a class="reference internal" href="#api">API</a><ul>
-<li><a class="reference internal" href="#interfaces">Interfaces</a></li>
-<li><a class="reference internal" href="#examples">Examples</a></li>
+<li><a class="reference internal" href="#">Documentation</a><ul>
+<li><a class="reference internal" href="#developer-corner">Developer corner</a><ul>
+<li><a class="reference internal" href="#api">API</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#interfaces">Interfaces</a></li>
+<li><a class="reference internal" href="#examples">Examples</a></li>
 </ul>
 </li>
 </ul>
@@ -143,7 +144,7 @@
 <div class="breadcrumb-bar" role="navigation" aria-label="breadcrumbs navigation">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="../Index.html">Start</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Developer corner</li>
+        <li class="breadcrumb-item active" aria-current="page">Documentation</li>
     </ol>
     <div class="breadcrumb-additions">
         <a class="btn btn-sm btn-light" href="../_sources/Developer/Index.rst.txt" rel="nofollow noopener" target="_blank">
@@ -188,17 +189,34 @@ Color scheme of code blocks:<br>
                         <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
                             <div itemprop="articleBody">
 <!-- body -->
-    <div class="section" id="developer-corner">
-<span id="developer"></span><h1>Developer corner<a class="headerlink" href="#developer-corner" title="Permalink to this headline">¶</a></h1>
-<p>This extension uses a custom github workflow for deploying the documentation to
-Github Pages.</p>
+    <div class="section" id="documentation">
+<span id="developer"></span><h1>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h1>
+<p>For each extension, a documentation should be provided. This documentation should
+be written in reStructuredText (reST) and should be located in the <code class="docutils literal notranslate"><span class="pre">Documentation</span></code>
+folder of the extension. The documentation should be written in English.</p>
+<p>The documentation should be split into the following sections:</p>
+<ul class="simple">
+<li><p>Introduction</p></li>
+<li><p>Installation</p></li>
+<li><p>Configuration</p></li>
+<li><p>Usage</p></li>
+<li><p>General (optional)</p></li>
+<li><p>Editor</p></li>
+<li><p>Developer</p></li>
+</ul>
+<p>This documentation was build and deployed with GitHub Actions.
+More about that here: <a class="reference external" href="https://github.com/mai-space/action-typo3-documentation-on-github">https://github.com/mai-space/action-typo3-documentation-on-github</a></p>
+<div class="section" id="developer-corner">
+<h2>Developer corner<a class="headerlink" href="#developer-corner" title="Permalink to this headline">¶</a></h2>
 <p>Use this section to provide examples of code or detail any information that would be deemed relevant to a developer.</p>
 <p>For example explain how a certain feature was implemented.</p>
 <div class="section" id="api">
-<span id="developer-api"></span><h2>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h2>
+<span id="developer-api"></span><h3>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h3>
 <p>How to use the API...</p>
+</div>
+</div>
 <div class="section" id="interfaces">
-<h3>Interfaces<a class="headerlink" href="#interfaces" title="Permalink to this headline">¶</a></h3>
+<h2>Interfaces<a class="headerlink" href="#interfaces" title="Permalink to this headline">¶</a></h2>
 <p>The following list provides information for all necessary interfaces that are
 used inside of this documentation. For up to date information, please check
 the source code.</p>
@@ -276,7 +294,7 @@ in TYPO3 Backend.</p>
 
 </div>
 <div class="section" id="examples">
-<h3>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h3>
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
 <p>A php example:</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="c1">// use \TYPO3\CMS\Core\Utility\GeneralUtility;</span>
 <span class="nv">$stuff</span> <span class="o">=</span> <span class="nx">GeneralUtility</span><span class="o">::</span><span class="na">makeInstance</span><span class="p">(</span>
@@ -302,7 +320,6 @@ in TYPO3 Backend.</p>
 <span class="w">        </span><span class="nt">method</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;methodToConnectToEvent&#39;</span>
 <span class="w">        </span><span class="nt">event</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Vendor\MyExtension\Event\MyActionEvent</span>
 </pre></div>
-</div>
 </div>
 </div>
 </div>
@@ -347,7 +364,7 @@ in TYPO3 Backend.</p>
                     <li><a href="https://github.com/mai-space/template-typo3-extension" title="Repository"><span>Repository</span></a></li>
                 </ul>
                 <div class="footer-additional">
-                    <p class="text-center">Last rendered: Aug 20, 2023 08:22</p>
+                    <p class="text-center">Last rendered: Aug 20, 2023 11:39</p>
                     <ul class="footer-simplemenu">
                         <li><a href="https://github.com/TYPO3-Documentation/sphinx_typo3_theme" title="sphinx_typo3_theme" target="_blank">
                         <span>TYPO3 Theme 4.9.0</span></a></li>

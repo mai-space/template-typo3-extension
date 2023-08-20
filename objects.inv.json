@@ -126,7 +126,7 @@
          "Template TYPO3 Extension",
          "12.0.x-dev",
          "Developer/Index.html",
-         "Developer corner"
+         "Documentation"
       ],
       "Editor/Index": [
          "Template TYPO3 Extension",
@@ -260,7 +260,7 @@
          "Template TYPO3 Extension",
          "12.0.x-dev",
          "Developer/Index.html#developer",
-         "Developer corner"
+         "Documentation"
       ],
       "developer-api": [
          "Template TYPO3 Extension",
