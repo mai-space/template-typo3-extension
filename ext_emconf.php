@@ -18,7 +18,7 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'autoload' => [
         'psr-4' => [
-            'Maispace\\Templatepackage\\' => 'Classes',
+            'Maispace\\TemplateTypo3Extension\\' => 'Classes',
         ],
     ],
     'state' => 'stable',

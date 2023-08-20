@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Maispace\\Templatepackage\\": "Classes/"
+            "Maispace\\TemplateTypo3Extension\\": "Classes/"
         }
     },
     "extra": {

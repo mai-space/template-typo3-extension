@@ -1,7 +1,7 @@
 module {
-  tx_templatepackage {
+  tx_templatetypo3extension {
 
-    settings < plugin.tx_templatepackage.settings
+    settings < plugin.tx_templatetypo3extension.settings
 
     view {
       layoutRootPaths {

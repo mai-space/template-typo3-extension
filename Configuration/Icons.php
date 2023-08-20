@@ -18,7 +18,7 @@ $icons = [];
 foreach ($iconsIdentifier as $identifier => $path) {
     $icons[$identifier] = [
         'provider' => SvgIconProvider::class,
-        'source' => 'EXT:templatepackage/Resources/Public/Icons/' . $path . '.svg',
+        'source' => 'EXT:templatetypo3extension/Resources/Public/Icons/' . $path . '.svg',
     ];
 }
 

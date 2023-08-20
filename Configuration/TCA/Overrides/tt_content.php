@@ -182,7 +182,7 @@ call_user_func(
         // );
 
     },
-    'templatepackage',
+    'templatetypo3extension',
     basename(__FILE__, '.php')
 );
 

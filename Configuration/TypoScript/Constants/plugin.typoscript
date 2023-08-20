@@ -1,4 +1,4 @@
-plugin.tx_templatepackage {
+plugin.tx_templatetypo3extension {
 
     persistence.storagePid =
 

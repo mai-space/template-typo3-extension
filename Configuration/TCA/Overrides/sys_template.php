@@ -8,15 +8,15 @@ call_user_func(
 
 
         // ---------------------------------------------------------------------------------------------------------- //
-        // Default TypoScript for Templatepackage
+        // Default TypoScript for TemplateTypo3Extension
         // ---------------------------------------------------------------------------------------------------------- //
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
             $extensionKey,
             'Configuration/TypoScript',
-            'templatepackage'
+            'templatetypo3extension'
         );
 
     },
-    'templatepackage',
+    'templatetypo3extension',
     basename(__FILE__, '.php')
 );

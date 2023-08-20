@@ -1,1 +1,1 @@
-@import 'EXT:templatepackage/Configuration/TypoScript/Setup/Lib/Templates/*.typoscript'
+@import 'EXT:templatetypo3extension/Configuration/TypoScript/Setup/Lib/Templates/*.typoscript'

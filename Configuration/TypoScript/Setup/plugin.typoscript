@@ -1,5 +1,5 @@
 plugin {
-  tx_templatepackage {
+  tx_templatetypo3extension {
 
     view {
       layoutRootPaths {

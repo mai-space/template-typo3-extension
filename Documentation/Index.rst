@@ -10,7 +10,7 @@ Template TYPO3 Extension
     templatepackage
 
 :Package name:
-    Templatepackage
+    TemplateTypo3Extension
 
 :Version:
     |release|

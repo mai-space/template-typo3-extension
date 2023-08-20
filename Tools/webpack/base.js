@@ -19,7 +19,7 @@ module.exports = {
       '.ts', '.js',
     ],
     modules: [
-      '/var/www/html/local_packages/templatepackage/Tools/node_modules',
+      '/var/www/html/local_packages/templatetypo3extension/Tools/node_modules',
       'node_modules',
     ],
   },

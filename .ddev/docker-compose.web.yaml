@@ -20,7 +20,7 @@ services:
         volumes:
             - type: bind
               source: ../
-              target: /var/www/typo3-extension-template
+              target: /var/www/template-typo3-extension
               consistency: cached
             - v11-data:/var/www/html/v11
             - v12-data:/var/www/html/v12

@@ -78,7 +78,7 @@ call_user_func(
         // $GLOBALS['TCA'][$tableName]['palettes']['<palette-name>']['showitem'] .= ',tx_extensionKey_field_name';
 
         // ---------------------------------------------------------------------------------------------------------- //
-        // Default PageTS for Templatepackage
+        // Default PageTS for TemplateTypo3Extension
         // ---------------------------------------------------------------------------------------------------------- //
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
             $extensionKey,

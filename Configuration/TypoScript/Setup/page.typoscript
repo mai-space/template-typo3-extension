@@ -4,8 +4,8 @@ page {
 
   10 =< lib.templates.base
 
-  shortcutIcon = EXT:templatepackage/Resources/Public/Icons/favicon.ico
+  shortcutIcon = EXT:templatetypo3extension/Resources/Public/Icons/favicon.ico
 
 }
 
-@import 'EXT:templatepackage/Configuration/TypoScript/Setup/Page/*.typoscript'
+@import 'EXT:templatetypo3extension/Configuration/TypoScript/Setup/Page/*.typoscript'

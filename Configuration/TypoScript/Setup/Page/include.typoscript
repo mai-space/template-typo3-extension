@@ -5,7 +5,7 @@ page {
   }
 
   includeCSS {
-    templatepackage_layout = EXT:templatepackage/Resources/Public/Css/layout.min.css
+    templatetypo3extension_layout = EXT:templatetypo3extension/Resources/Public/Css/layout.min.css
   }
 
   includeJSLibs {
@@ -21,7 +21,7 @@ page {
   }
 
   includeJSFooter {
-    templatepackage_scripts = EXT:templatepackage/Resources/Public/JavaScript/Dist/scripts.js
+    templatetypo3extension_scripts = EXT:templatetypo3extension/Resources/Public/JavaScript/Dist/scripts.js
   }
 
 }

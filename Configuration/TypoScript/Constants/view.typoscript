@@ -1,27 +1,27 @@
 view {
-    
+
     elements {
-        layoutRootPath = EXT:templatepackage/Resources/Private/Layouts/ContentElements/
-        partialRootPath = EXT:templatepackage/Resources/Private/Partials/ContentElements/
-        templateRootPath = EXT:templatepackage/Resources/Private/Templates/ContentElements/
+        layoutRootPath = EXT:templatetypo3extension/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:templatetypo3extension/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:templatetypo3extension/Resources/Private/Templates/ContentElements/
     }
 
     plugins {
-        layoutRootPath = EXT:templatepackage/Resources/Private/Layouts/Plugins/
-        partialRootPath = EXT:templatepackage/Resources/Private/Partials/Plugins/
-        templateRootPath = EXT:templatepackage/Resources/Private/Templates/Plugins/
+        layoutRootPath = EXT:templatetypo3extension/Resources/Private/Layouts/Plugins/
+        partialRootPath = EXT:templatetypo3extension/Resources/Private/Partials/Plugins/
+        templateRootPath = EXT:templatetypo3extension/Resources/Private/Templates/Plugins/
     }
 
     pages {
-        layoutRootPath = EXT:templatepackage/Resources/Private/Layouts/Page/
-        partialRootPath = EXT:templatepackage/Resources/Private/Partials/Page/
-        templateRootPath = EXT:templatepackage/Resources/Private/Templates/Page/
+        layoutRootPath = EXT:templatetypo3extension/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:templatetypo3extension/Resources/Private/Partials/Page/
+        templateRootPath = EXT:templatetypo3extension/Resources/Private/Templates/Page/
     }
 
     backend {
-        layoutRootPath = EXT:templatepackage/Resources/Private/Layouts/Backend/
-        partialRootPath = EXT:templatepackage/Resources/Private/Partials/Backend/
-        templateRootPath = EXT:templatepackage/Resources/Private/Templates/Backend/
+        layoutRootPath = EXT:templatetypo3extension/Resources/Private/Layouts/Backend/
+        partialRootPath = EXT:templatetypo3extension/Resources/Private/Partials/Backend/
+        templateRootPath = EXT:templatetypo3extension/Resources/Private/Templates/Backend/
     }
 
 }
