@@ -3,12 +3,30 @@
 
 ..  _developer:
 
-================
-Developer corner
-================
 
-This extension uses a custom github workflow for deploying the documentation to
-Github Pages.
+=============
+Documentation
+=============
+
+For each extension, a documentation should be provided. This documentation should
+be written in reStructuredText (reST) and should be located in the ``Documentation``
+folder of the extension. The documentation should be written in English.
+
+The documentation should be split into the following sections:
+
+* Introduction
+* Installation
+* Configuration
+* Usage
+* General (optional)
+* Editor
+* Developer
+
+This documentation was build and deployed with GitHub Actions.
+More about that here: https://github.com/mai-space/action-typo3-documentation-on-github
+
+Developer corner
+----------------
 
 Use this section to provide examples of code or detail any information that would be deemed relevant to a developer.
 
