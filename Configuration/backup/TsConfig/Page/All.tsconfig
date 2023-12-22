@@ -1,7 +1,0 @@
-#
-# PageTS for templatetypo3extension
-#
-@import 'EXT:templatetypo3extension/Configuration/TsConfig/Page/RTE.tsconfig'
-@import 'EXT:templatetypo3extension/Configuration/TsConfig/Page/TCEFORM.tsconfig'
-@import 'EXT:templatetypo3extension/Configuration/TsConfig/Page/TCEMAIN.tsconfig'
-@import 'EXT:templatetypo3extension/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig'

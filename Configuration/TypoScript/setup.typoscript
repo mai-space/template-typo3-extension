@@ -1,5 +1,0 @@
-# ------------------------------------------------------------------------------------------------- BEGIN: Include setup
-
-@import 'EXT:templatetypo3extension/Configuration/TypoScript/Setup/*.typoscript'
-
-# --------------------------------------------------------------------------------------------------- END: Include setup

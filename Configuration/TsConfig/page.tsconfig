@@ -1,5 +1,0 @@
-# ----------------------------------------------------------------------------------------- BEGIN: Include Page TsConfig
-
-@import 'EXT:templatetypo3extension/Configuration/TsConfig/Page/*.typoscript'
-
-# ------------------------------------------------------------------------------------------- END: Include Page TsConfig

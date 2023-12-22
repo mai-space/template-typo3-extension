@@ -1,5 +1,0 @@
-# ----------------------------------------------------------------------------------------- BEGIN: Include User TsConfig
-
-@import 'EXT:templatetypo3extension/Configuration/TsConfig/User/*.typoscript'
-
-# ------------------------------------------------------------------------------------------- END: Include User TsConfig

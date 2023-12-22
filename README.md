@@ -4,9 +4,6 @@
 ![DDEV](https://img.shields.io/badge/ready-2CA5E0?style=for-the-badge&logo=docker&logoColor=white&label=DDEV)
 ![PHPStan](http://img.shields.io/badge/PHPStan-777BB4?style=for-the-badge&logo=php&logoColor=white&label=Level%208)
 ![GitHub Actions](https://img.shields.io/badge/CI/CD-282a2e?style=for-the-badge&logo=githubactions&logoColor=367cfe&label=Github%20Actions)
-![]()
-![]()
-![]()
 
 ## ✨ FEATURES
 

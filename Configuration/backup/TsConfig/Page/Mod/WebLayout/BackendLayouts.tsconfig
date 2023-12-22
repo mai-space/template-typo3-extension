@@ -1,4 +1,0 @@
-#
-# BACKENDLAYOUTS
-#
-@import 'EXT:templatetypo3extension/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts/*.tsconfig'
