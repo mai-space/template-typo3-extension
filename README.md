@@ -8,11 +8,11 @@
 ## ✨ FEATURES
 
 - ✅ DDEV Setup with commands and testing environment
-- ✅ PHPStan Level 8 continous testing
+- ✅ PHPStan Level 8 continuous testing
 - ✅ TypoScript Linting
 - ✅ EditorConfig Checks and Fixes
 - ✅ Documentation Template and Rendering
-- ✅ Github Actions for CI/CD
+- ✅ GitHub Actions for CI/CD
 - ✅ Generic TYPO3 Extension Template for rapid Development
 
 ## 🔧 HOW TO USE
@@ -24,6 +24,18 @@
 ### 🚀 DEPLOYMENT
 
 ## 🔮 DEVELOPER GUIDE
+
+### 🖋 LINTING AND CHECKS
+
+You can use the following commands to lint and check your code:
+
+```bash
+# If you just want to check for errors in your TypoScript or PHPFiles
+ddev composer run check
+
+# Apply editorconfig rules to your files
+ddev composer run fix
+```
 
 ## 🫂 HOW TO CONTRIBUTE
 

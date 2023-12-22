@@ -1,0 +1,7 @@
+includes:
+	- ../../../phpstan/phpstan-doctrine/extension.neon
+	- ../../../saschaegerer/phpstan-typo3/extension.neon
+
+parameters:
+	checkMissingIterableValueType: true
+	checkGenericClassInNonGenericObjectType: false
