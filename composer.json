@@ -56,5 +56,8 @@
         "psr-4": {
             "YourVendorName\\YourExtensionName\\": "Classes/"
         }
+    },
+    "replace": {
+        "typo3-ter/my_ext": "*"
     }
 }

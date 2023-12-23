@@ -17,9 +17,23 @@
 
 ## 🔧 HOW TO USE
 
-### ⚙️ INSTALLATION
+In this section you will find a quick guide on how to use this template.
 
-### 🧪 ADAPTATION & CONFIGURATION
+### 🧪 INSTALLATION & ADAPTATION & CONFIGURATION
+
+1. Getting started
+   - Search for ``YourVendorName\\YourExtensionName\\`` and replace with your **vendor** and **extension name**
+     - Search for ``yourvendorname/yourextensionname`` and replace with your **vendor** and **extension name**
+   - Search for ``yourextensionname`` and replace with your **extension name**
+   - Search for ``yourextensionkey`` and replace with your **extension key**
+2. Launch the extension in your TYPO3 instance
+    - Install TYPO3 environments (thanks to [ddev-for-typo3-extensions](https://github.com/a-r-m-i-n/ddev-for-typo3-extensions))
+    ```bash
+    ddev install-v12
+    ```
+   - TYPO3 Login:
+     - Username: ``admin``
+     - Password: ``Password:joh316`` (also in install tool)
 
 ### 🚀 DEPLOYMENT
 

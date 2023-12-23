@@ -15,3 +15,10 @@ indent_style = tab
 indent_size = unset
 indent_style = unset
 max_line_length = unset
+
+# Ignore files in folder v12
+[v12/*]
+indent_style = unset
+indent_size = unset
+max_line_length = unset
+trim_trailing_whitespace = false
