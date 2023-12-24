@@ -1,5 +1,6 @@
 <?php
 
+// See https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/ExtensionArchitecture/FileStructure/ExtEmconf.html
 $EM_CONF[$_EXTKEY] = [
     'title' => 'yourextensionname',
     'description' => 'Made from the maispace/template-typo3-extension',
