@@ -1,6 +1,6 @@
 includes:
-	- ../../../phpstan/phpstan-doctrine/extension.neon
-	- ../../../saschaegerer/phpstan-typo3/extension.neon
+	- ../vendor/phpstan/phpstan-doctrine/extension.neon
+	- ../vendor/saschaegerer/phpstan-typo3/extension.neon
 
 parameters:
 	checkMissingIterableValueType: true

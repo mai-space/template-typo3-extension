@@ -30,6 +30,7 @@ nbproject
 # Ignore composer stuff
 /bin/*
 /vendor/*
+/public/*
 #
 # Ignore ddev for typo3 extension stuff
 /v12/*
